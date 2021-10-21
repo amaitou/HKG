@@ -1,0 +1,17 @@
+.awards .container .c2 .title {
+  font-size: 30px;
+  font-weight: bolder; }
+.awards .container .c2 .underline {
+  width: 50px;
+  height: 3px;
+  background-color: #f08080;
+  border-radius: 30px; }
+.awards .container .c2 .link a {
+  color: #f08080;
+  text-decoration: none;
+  font-weight: bolder;
+  transition: 0.3s; }
+  .awards .container .c2 .link a:hover {
+    color: white; }
+
+/*# sourceMappingURL=Awards.css.map */

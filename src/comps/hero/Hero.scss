@@ -1,0 +1,33 @@
+@mixin textedit($c, $f, $w)
+{
+    color: $c ;
+    font-size: $f ;
+    font-weight: $w ;
+}
+
+.hero
+{
+	background-image: url('../../images/covers/d.jpg') ;
+	background-size: cover ;
+	background-position: center ;
+	background-repeat: no-repeat;
+	.header-overlay
+	{
+		background-color: rgba(0,0,0,0.8) ;
+	}
+	.con
+	{
+		.header-info
+		{
+			h1:first-child
+            {
+                @include textedit(#f08080, 50px, bolder) ;
+                font-family: 'Pacifico', cursive;
+            }
+            & p:last-of-type
+            {
+                @include textedit(white, 17px, bolder) ;
+            }
+		}
+	}
+}

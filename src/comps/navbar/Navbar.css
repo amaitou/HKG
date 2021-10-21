@@ -1,0 +1,46 @@
+.navbar .container .navbar-brand {
+  color: white;
+  transition: 0.3s;
+  font-family: "Pacifico", cursive;
+  font-size: 15px; }
+  .navbar .container .navbar-brand:hover {
+    color: #F08080; }
+.navbar .container .collapse .navbar-nav .nav-item .nav-link {
+  color: white;
+  position: relative;
+  font-weight: 800;
+  font-size: 15px; }
+  .navbar .container .collapse .navbar-nav .nav-item .nav-link:hover {
+    color: #F08080; }
+    .navbar .container .collapse .navbar-nav .nav-item .nav-link:hover:before, .navbar .container .collapse .navbar-nav .nav-item .nav-link:hover:after {
+      width: 50%; }
+    .navbar .container .collapse .navbar-nav .nav-item .nav-link:hover:before {
+      transform: translateX(100%); }
+    .navbar .container .collapse .navbar-nav .nav-item .nav-link:hover:after {
+      transform: translateX(-100%); }
+  .navbar .container .collapse .navbar-nav .nav-item .nav-link:before {
+    transition: 0.3s;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    bottom: 0;
+    right: none;
+    left: 0; }
+  .navbar .container .collapse .navbar-nav .nav-item .nav-link:after {
+    transition: 0.3s;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #F08080;
+    bottom: 0;
+    right: 0;
+    left: none; }
+
+.active {
+  background-color: #010412;
+  transition: 0.5s; }
+
+/*# sourceMappingURL=Navbar.css.map */

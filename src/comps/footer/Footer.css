@@ -1,0 +1,16 @@
+.footer .container .prefooter .accounts .title {
+  font-size: 30px;
+  font-weight: bold; }
+.footer .container .prefooter .accounts .urls a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #F08080;
+  transition: 0.3s; }
+  .footer .container .prefooter .accounts .urls a:hover {
+    transform: scale(1.3);
+    color: white; }
+.footer .container .last .owner, .footer .container .last .year, .footer .container .last .fab {
+  font-weight: bolder;
+  color: #F08080; }
+
+/*# sourceMappingURL=Footer.css.map */

@@ -1,0 +1,10 @@
+.support .container .c2 .title {
+  font-size: 30px;
+  font-weight: bolder; }
+.support .container .c2 .underline {
+  width: 50px;
+  height: 3px;
+  background-color: #f08080;
+  border-radius: 30px; }
+
+/*# sourceMappingURL=Support.css.map */
