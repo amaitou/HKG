@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/HKG/static/css/main.51b864ac.chunk.css",
+    "main.js": "/HKG/static/js/main.3d00cbe9.chunk.js",
+    "main.js.map": "/HKG/static/js/main.3d00cbe9.chunk.js.map",
+    "runtime-main.js": "/HKG/static/js/runtime-main.cf2c8774.js",
+    "runtime-main.js.map": "/HKG/static/js/runtime-main.cf2c8774.js.map",
+    "static/js/2.25b6f6ee.chunk.js": "/HKG/static/js/2.25b6f6ee.chunk.js",
+    "static/js/2.25b6f6ee.chunk.js.map": "/HKG/static/js/2.25b6f6ee.chunk.js.map",
+    "index.html": "/HKG/index.html",
+    "static/css/main.51b864ac.chunk.css.map": "/HKG/static/css/main.51b864ac.chunk.css.map",
+    "static/js/2.25b6f6ee.chunk.js.LICENSE.txt": "/HKG/static/js/2.25b6f6ee.chunk.js.LICENSE.txt",
+    "static/media/Lelouche01.jpg": "/HKG/static/media/Lelouche01.0688bfb7.jpg",
+    "static/media/about.a4deb535.svg": "/HKG/static/media/about.a4deb535.svg",
+    "static/media/awards.ea961149.svg": "/HKG/static/media/awards.ea961149.svg",
+    "static/media/Hero.css": "/HKG/static/media/d.8587f07c.jpg",
+    "static/media/design.svg": "/HKG/static/media/design.a21c5c16.svg",
+    "static/media/dev.svg": "/HKG/static/media/dev.037c0b26.svg",
+    "static/media/hamza07-w.jpg": "/HKG/static/media/hamza07-w.c0bae936.jpg",
+    "static/media/mchklt.jpg": "/HKG/static/media/mchklt.47e5df8e.jpg",
+    "static/media/security.svg": "/HKG/static/media/security.b72d90b3.svg",
+    "static/media/support.080e8bd3.svg": "/HKG/static/media/support.080e8bd3.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cf2c8774.js",
+    "static/js/2.25b6f6ee.chunk.js",
+    "static/css/main.51b864ac.chunk.css",
+    "static/js/main.3d00cbe9.chunk.js"
+  ]
+}
