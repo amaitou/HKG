@@ -16,13 +16,15 @@
 		    border-radius: 30px;
 		    margin: 0 auto;
 		}
-		.row
+		.box
 		{
-			.c
+			.leader
 			{
+				width: 350px ;
 				background-color: #010206 ;
 				border-radius: 10px ;
-                &:after
+
+				&:after
                 {
                     content: "" ;
                     position: absolute ;
@@ -34,33 +36,22 @@
                     right: -1px ;
                     bottom: -1px ;
                 }
-                .card
-                {
-                	.c-header
-                	{
-                		.titles > *
-                		{
-                			font-weight: bolder;
-                		}
-                	}
-                	.c-footer
-                	{
-                		.card-link
-                		{
-                			i
-                			{
-                				color: #f08080 ;
-                				font-size: 25px ;
-                				transition: 0.3s ;
-                				&:hover
-                				{
-                					transform: scale(1.3);
-                					color: white;
-                				}
-                			}
-                		}
-                	}
-                }
+				.head
+				{
+					img
+					{
+						width: 70px ;
+						height: 70px ;
+						border: 2px solid grey ;
+					}
+					.names
+					{
+						.name, .twitter-account .nickname
+						{
+							font-weight: bolder;
+						}
+					}
+				}
 			}
 		}
 	}

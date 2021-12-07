@@ -6,5 +6,12 @@
   height: 3px;
   background-color: #f08080;
   border-radius: 30px; }
+.about .container .c .accounts .l {
+  font-size: 20px;
+  transition: 0.5s; }
+  .about .container .c .accounts .l i {
+    color: #f08080; }
+  .about .container .c .accounts .l:hover {
+    transform: translateY(-10px); }
 
 /*# sourceMappingURL=About.css.map */

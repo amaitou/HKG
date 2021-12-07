@@ -7,17 +7,18 @@
   background-color: #f08080;
   border-radius: 30px;
   margin: 0 auto; }
-.services .container .row .c {
-  padding: 15px;
-  background-color: #010206;
-  border-radius: 10px; }
-  .services .container .row .c .card .card-title {
-    font-size: 30px;
+.services .container ._box .s {
+  border-radius: 10px;
+  width: 350px;
+  background-color: #010206; }
+  .services .container ._box .s .card .card-title {
+    font-size: 20px;
     font-weight: bolder; }
-  .services .container .row .c:hover .card img {
-    transform: scale(1.2);
+  .services .container ._box .s .card img {
     transition: 0.3s; }
-  .services .container .row .c:after {
+  .services .container ._box .s:hover .card img {
+    transform: scale(1.2); }
+  .services .container ._box .s:after {
     content: "";
     position: absolute;
     background: linear-gradient(90deg, #000d1e 0%, #f18080 100%);

@@ -10,7 +10,7 @@ class Services extends Component
 		const card = services.map(item  =>
 		{
 			return (
-				<div key = {Math.random()} className = 'c col-lg-3 mx-auto mb-3 col-12 position-relative'>
+				<div key = {Math.random()} className = ' py-3 s position-relative ms-3 mb-3'>
 					<div className = 'card bg-transparent'>
 						<h2 className = 'card-title mb-4 text-center'>{item.title}</h2>
 						<img src = {item.icon.default} className = 'w-25 mx-auto' alt = 'icon' />
@@ -25,11 +25,11 @@ class Services extends Component
 	render()
 	{
 		return ( 
-			<section className = 'services p-5 text-light' id = 'services'>
+			<section className = 'services py-5 mb-5 text-light' id = 'services'>
 				<div className = 'container'>
-					<h3 className = 'title text-center mb-2'>Services</h3>
+					<h3 className = 'title text-center mb-3'>Services</h3>
 					<div className = 'underline mb-5 mx-auto'></div>
-					<div className = 'row jusitfy-content-md-between h-50'>
+					<div className = '_box d-flex flex-wrap justify-content-center'>
 						{this.cards()}
 					</div>
 				</div>

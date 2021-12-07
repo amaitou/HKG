@@ -7,38 +7,33 @@ class Leaders extends Component
 {
 	cards()
 	{
-		const card = leaders.map(item =>
+		const card = leaders.map((item, index) =>
 		{
 			return (
-				<div className = 'c col-lg-3 g-1 mx-auto col-12 mb-3 align-items-center position-relative' key = {Math.random()}>
-					<div className = 'card bg-transparent p-3'>
-						<div className = 'c-header d-flex f-row align-items-center mb-3'>
-							<img src = {item.avatar.default} className = 'rounded-circle border border-light rounded-pill w-25 h-25 me-3' alt = 'leader icon'></img>
-							<div className = 'titles'>
-								<h6 className = 'name'>{item.name}</h6>
+				<div className = 'leader p-4 mb-3 mx-2 position-relative' key = {index}>
+					<div className = 'head d-flex align-items-center mb-4'>
+						<img className = 'rounded-circle img-fluid' src = {item.avatar.default} alt = 'card' />
+						<div className = 'names ms-4'>
+							<h6 className = 'name'>{item.name}</h6>
+							<a href = {item.twitter} className = 'twitter-account text-decoration-none' target = '_blank' rel="noreferrer">
 								<h6 className = 'nickname text-muted'>{item.nickname}</h6>
-							</div>
-						</div>
-						<div className = 'card-body'>
-							<p>{item.desc}</p>
-						</div>
-						<div className = 'c-footer'>
-							<a href = {item.twitter} className = "card-link" target = '_blank'><i className = "fab fa-twitter"></i></a>
-							<a href = {item.github}  className = "card-link" target = '_blank'><i className = "fab fa-github"></i></a>
+							</a> 
 						</div>
 					</div>
-			</div>)
+					<p className = 'desc ps-3'>{item.desc}</p>
+				</div>
+			)
 		})
 		return card
 	}
  	render()
 	{
 		return (
-			<section className = 'leaders p-5 text-light' id = 'leaders'>
+			<section className = 'leaders py-5 mb-5 text-light' id = 'leaders'>
 				<div className = 'container'>
-					<h3 className = 'title text-center mb-2'>Community Leaders</h3>
+					<h3 className = 'title text-center mb-3'>Community Leaders</h3>
 					<div className = 'underline mb-5 mx-auto'></div>
-					<div className = 'row'>
+					<div className = 'box d-flex flex-wrap justify-content-center'>
 						{this.cards()}
 					</div>
 				</div>

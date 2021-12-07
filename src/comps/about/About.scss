@@ -16,5 +16,24 @@
 		    background-color: #f08080 ;
 		    border-radius: 30px ;
 		}
+		.c
+		{
+			.accounts
+			{
+				.l
+				{
+					font-size: 20px ;
+					transition: 0.5s ;
+					i
+					{
+						color: #f08080 ;
+					}
+					&:hover
+					{
+						transform: translateY(-10px) ;
+					}
+				}
+			}
+		}
 	}
 }

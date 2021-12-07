@@ -1,4 +1,4 @@
-let navlist  = ['Home', 'About', 'Services', 'Support', 'Awards', 'Leaders', 'Contact']
+let navlist  = ['Home', 'About', 'Services', 'Support', 'Awards', 'Leaders']
 
 let title = 'HKG'
 let par = 'HKG Is An Organization That Helps Founders Create, Build And Secure Their Softwares, It Was Created And Released In 2021 By A Group Of Talented and Skilled Developers in Morocco.'

@@ -8,6 +8,7 @@ import Support from './comps/support/Support'
 import Leaders from './comps/leaders/Leaders'
 import Awards from './comps/awards/Awards'
 import Footer from './comps/footer/Footer'
+import Sb from './comps/sb/Sb'
 
 class App extends Component
 {
@@ -15,6 +16,7 @@ class App extends Component
     {
         return (
             <>
+                <Sb />
                 <div className = '_navbar'>
                     <Navbar />
                 </div>
