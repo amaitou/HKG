@@ -30,11 +30,11 @@ let support = 'briefly, we literally care about everything that can be represent
 let leaders = [
     {
         name     : 'Amine Ait Ouazghour',
-        nickname : '@Lelouche01',
+        nickname : '@amaitou',
         avatar   : require("../../images/avatars/Lelouche01.jpg"),
         desc     : 'Full Stack Javascript Developer, Problem Solver & Interested In Cybersecurity',
-        github   : 'https://github.com/Lelouche01',
-        twitter  : 'https://twitter.com/Lelouche01'
+        github   : 'https://github.com/amaitou',
+        twitter  : 'https://twitter.com/amait0u'
     },
     {
         name     : 'Abdelkarim Mouchquelita',
