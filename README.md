@@ -1,3 +1,8 @@
+--------------
+![Screenshot from 2022-09-06 05-15-49](https://user-images.githubusercontent.com/49293816/188545847-461aaaed-47f6-41f7-92ec-be716baae160.png)
+
+--------------
+
 ## About
 
 HKG Is An Organization That Helps Founders Create, Build And Secure Their Softwares, It Was Created And Released In 2021 By A Group Of Talented and Skilled Developers in Morocco
