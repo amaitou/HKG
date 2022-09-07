@@ -8,7 +8,7 @@
 HKG Is An Organization That Helps Founders Create, Build And Secure Their Softwares, It Was Created And Released In 2021 By A Group Of Talented and Skilled Developers in Morocco
 You Might Desire To Take A Look At Our BLogs Here **[Blogs](https://hkgang.com/)**
 
-* Visit The Website From Here **[HKG](https://lelouche01.github.io/HKG/)**
+* Visit The Website From Here **[HKG](https://amaitou.github.io/HKG/)**
 
 ## Usage
 
