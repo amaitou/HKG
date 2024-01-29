@@ -14,16 +14,14 @@ You Might Desire To Take A Look At Our BLogs Here **[Blogs](https://hkgang.com/)
 
 As it is a *React* app, you must run a few commands firstly to have the app run properly, so after downloading the repository and *cd* to the folder just type the following commands
 
-* Install missing modules
+```sh
+# build the image
+make build
+# run the container (app)
+make run
+```
 
-    ```
-    npm install 
-    ```
-* Run the react app
-
-    ```
-    npm start 
-    ```
+> If you want to get ride of the app just type ```make clean```
 
 ## Contact Me
 
